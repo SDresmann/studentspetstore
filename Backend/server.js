@@ -31,7 +31,6 @@ mongoose
   .catch((err) => console.log(err));
 
 // routes
-app.get('/', (req, res) => res.render('home'));
 app.use(petRoutes);
 app.use(authRoutes);
 
